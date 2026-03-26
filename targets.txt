@@ -1,0 +1,19 @@
+# Injective public endpoints sample set
+# Format:
+# name|url|category|note
+# Sources for these public endpoints are documented by Injective.
+# Replace, remove, or extend as needed.
+
+mainnet-chain-lcd|https://sentry.lcd.injective.network:443|mainnet|Public Chain LCD
+mainnet-chain-rpc|https://sentry.tm.injective.network:443|mainnet|Public Chain RPC
+mainnet-evm-rpc|https://sentry.evm-rpc.injective.network/|mainnet|Public EVM JSON-RPC
+mainnet-indexer-grpc-web|https://sentry.exchange.grpc-web.injective.network:443|mainnet|Public indexer gRPC-Web
+mainnet-swagger|https://sentry.lcd.injective.network/swagger/#/|mainnet|Public Chain Swagger
+mainnet-status|https://uptime.com/statuspage/status.injective.network|mainnet|Public status page
+
+testnet-chain-lcd|https://testnet.sentry.lcd.injective.network:443|testnet|Public testnet Chain LCD
+testnet-chain-rpc|https://testnet.sentry.tm.injective.network:443|testnet|Public testnet Chain RPC
+testnet-evm-rpc|https://k8s.testnet.json-rpc.injective.network/|testnet|Public testnet EVM JSON-RPC
+testnet-indexer-grpc-web|https://testnet.sentry.exchange.grpc-web.injective.network:443|testnet|Public testnet indexer gRPC-Web
+testnet-swagger|https://testnet.sentry.lcd.injective.network/swagger/|testnet|Public testnet Chain Swagger
+testnet-faucet|https://testnet.faucet.injective.network/|testnet|Public testnet faucet
